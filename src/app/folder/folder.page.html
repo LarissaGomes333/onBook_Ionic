@@ -1,9 +1,12 @@
-<ion-header [translucent]="true">
+<ion-header [translucent]="false">
   <ion-toolbar>
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <!-- <ion-title>{{ folder }}</ion-title> -->
+    <ion-title>
+      <ion-icon slot="start" name="cafe"></ion-icon>
+      Onbook
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -13,9 +16,10 @@
 
     <section>
       <div class="container-pesquisa">
-        <ion-input class="pesquisar" type="text">
+        <!-- <ion-input class="pesquisar" type="text"> -->
+          <ion-searchbar animated="true" placeholder="Pesquisar" color="#F5CCA0"></ion-searchbar>
           <!-- <ion-icon class="icon-pesquisar" name="search"></ion-icon> -->
-        </ion-input>
+        <!-- </ion-input> -->
       </div>
     </section>
 
@@ -63,4 +67,19 @@
 
 
   </div>
+  <ion-footer>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-button>
+          <ion-icon name="home"></ion-icon>
+        </ion-button>
+        <ion-button>
+          <ion-icon name="book"></ion-icon>
+        </ion-button>
+        <ion-button>
+          <ion-icon name="star"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-footer>
 </ion-content>
