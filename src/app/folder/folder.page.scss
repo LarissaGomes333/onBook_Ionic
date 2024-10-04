@@ -1,11 +1,60 @@
 ion-menu-button {
   color: var(--ion-color-primary);
+  background-color: #fafafa;
 }
 
-ion-content{
+.container-pesquisa{
+
+}
+
+.pesquisar{
+
+  background-color: #F5CCA0 ;
+  border: 1px solid #F5CCA0;
+  border-radius: 5px;
+  margin-bottom: 5%;
+  padding: 2%;
+}
+
+.icon-pesquisar{
+  // margin-top: 3%;
+  // margin-left: 5%;
+  // width: 25px;
+  // height: 25px;
+
+}
+
+.tags{
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 
 
 }
+
+.tag{
+  font-size: 20px;
+  width: auto;
+  height: 40px;
+  border-radius: 15px;
+  border: 2px solid #F5CCA0;
+  align-content: center;
+  padding: 2%;
+
+
+}
+
+.titulo{
+  margin: 5% 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
 
 #container {
 //   text-align: center;
