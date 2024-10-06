@@ -10,6 +10,10 @@ const routes: Routes = [
   {
     path: 'folder/:id',
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
+  },
+  {
+    path: 'favorito',
+    loadChildren: () => import('./favorito/favorito.module').then( m => m.FavoritoPageModule)
   }
 ];
 
