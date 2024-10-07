@@ -1,3 +1,43 @@
+ion-header {
+  text-align-last: center;
+  --background: var(--ion-item-background, var(--ion-background-color, #E48F45));
+  color: #E48F45;
+}
+
+ion-header ion-title{
+  color:#000
+}
+
+ion-content {
+  --ion-background-color: #fff;
+}
+
+ion-toolbar{
+  --background: #E48F45
+}
+
+ion-menu-button {
+  color: var(--ion-color-primary);
+  background-color: #E48F45;
+  color: #000;
+}
+
+.conteudo-favorito h2{
+  margin: 8% 5%;
+
+}
+
+.header-title{
+  font-size: 18px;
+}
+
+.header-title ion-icon{
+  margin-left: -140px;
+  width: 30px;
+  height: 25px;
+}
+
+
 .livros{
     display: grid;
     grid-template-columns: auto auto;
