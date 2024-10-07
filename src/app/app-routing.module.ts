@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'favorito',
     loadChildren: () => import('./favorito/favorito.module').then( m => m.FavoritoPageModule)
+  },
+  {
+    path: 'biblioteca',
+    loadChildren: () => import('./biblioteca/biblioteca.module').then( m => m.BibliotecaPageModule)
   }
 ];
 
