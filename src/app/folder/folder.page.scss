@@ -109,8 +109,10 @@ margin: 5%
 
 }
 
-.titulo{
-  // text-align-last: justify;
+.header-title ion-icon{
+  margin-left: -130px;
+  width: 30px;
+  height: 20px;
 }
 
 .item{
@@ -144,10 +146,10 @@ margin: 5%
 
 ion-footer{
   background-color: #E48F45;
-  position: absolute;
   bottom:0;
+  position:fixed; 
   width:100%;
-  margin: auto auto;
+  margin: auto auto auto auto;
   padding: 10px 5px;
   display: flex;
   justify-content: space-evenly;
