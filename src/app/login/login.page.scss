@@ -1,0 +1,40 @@
+ion-header {
+    text-align-last: center;
+    --background: #E48F45;
+    color: #E48F45;
+  }
+
+ion-title{
+    text-align: center;
+    background-color: #ffffff;
+    color: #E48F45;
+}
+
+ p{
+    text-align: center;
+    font-size: 12px;
+ }
+
+ ion-input{
+    height: 12px;
+    width: 300px;
+    border-color: #E48F45;
+    font-size: 12px;
+ }
+
+ a{
+    color: #000000;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    font-size: 12px;
+ }
+
+ ion-button{
+    border-color: #E48F45;
+    --background: #ffffff;
+    color: #E48F45;
+ }
