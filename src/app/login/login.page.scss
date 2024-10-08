@@ -1,40 +1,66 @@
 ion-header {
-    text-align-last: center;
-    --background: #E48F45;
-    color: #E48F45;
-  }
+   text-align-last: center;
+   text-align: center;
+   --background: #E48F45;
+   color: #E48F45;
+ }
 
 ion-title{
-    text-align: center;
-    background-color: #ffffff;
-    color: #E48F45;
+   text-align: center;
+   background-color: #ffffff;
+   color: #E48F45;
+   justify-content: center;
 }
 
- p{
-    text-align: center;
-    font-size: 12px;
- }
+p{
+   text-align: center;
+   font-size: 12px;
+}
 
- ion-input{
-    height: 12px;
-    width: 300px;
-    border-color: #E48F45;
-    font-size: 12px;
- }
+ion-input{
+   height: 12px;
+   width: 300px;
+   text-align: right;
+   border-color: #E48F45;
+   font-size: 12px;
+}
 
- a{
-    color: #000000;
-    border-color: #ffffff;
-    background-color: #ffffff;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-    display: flex;
-    font-size: 12px;
- }
+a{
+   color: #000000;
+   border-color: #ffffff;
+   background-color: #ffffff;
+   text-align: right;
+   font-size: 12px;
+}
 
- ion-button{
-    border-color: #E48F45;
-    --background: #ffffff;
-    color: #E48F45;
- }
+ion-button{
+   border-color: #E48F45;
+   --background: #ffffff;
+   color: #E48F45;
+  width: 300px;
+  margin-top: 4%;
+}
+
+ion-content{
+  margin: 10%;
+}
+
+.input ion-input{
+  text-align: left;
+}
+
+.principal{
+  margin: 10%;
+  text-align: center;
+}
+
+.input{
+  text-align: center;
+}
+.cadastro a{
+  color: #E48F45;
+}
+
+.cadastro{
+  text-align: center;
+}
